@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "474432299061",
+    "project_id": "fir-auth-f82fd",
+    "storage_bucket": "fir-auth-f82fd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474432299061:android:01595bc2a991287866117c",
+        "android_client_info": {
+          "package_name": "com.example.firebaseauthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474432299061-gbsn4r4m6lgshoag4pe0gri2h9qsilom.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseauthapp",
+            "certificate_hash": "35273550ee2a0452bd8b5b7198d0247634722097"
+          }
+        },
+        {
+          "client_id": "474432299061-ie8oobbrf6a5b0m83ia2mies085larnk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoxMiQLeP5Ju1u2Dvsg1pkXDcwjuEnOoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474432299061-ie8oobbrf6a5b0m83ia2mies085larnk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474432299061:android:e435403bbadcd95a66117c",
+        "android_client_info": {
+          "package_name": "com.pushset.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474432299061-ie8oobbrf6a5b0m83ia2mies085larnk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoxMiQLeP5Ju1u2Dvsg1pkXDcwjuEnOoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474432299061-ie8oobbrf6a5b0m83ia2mies085larnk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
