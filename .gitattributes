@@ -1,8 +1,12 @@
-# Ignore generated or web files for language stats
-/web/* linguist-detectable=false
-/build/* linguist-detectable=false
-/assets/* linguist-detectable=false
+# Ignore build outputs and platform files
+/build/* linguist-vendored
+/web/* linguist-vendored
+/ios/* linguist-vendored
+/android/* linguist-vendored
+/macos/* linguist-vendored
+/windows/* linguist-vendored
+/linux/* linguist-vendored
 
-# Ensure Dart files are counted
+# Count Dart files only
 *.dart linguist-detectable=true
 *.dart linguist-language=Dart
