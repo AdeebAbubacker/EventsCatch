@@ -1,12 +1,26 @@
-# Ignore build outputs and platform files
-/build/* linguist-vendored
-/web/* linguist-vendored
-/ios/* linguist-vendored
-/android/* linguist-vendored
-/macos/* linguist-vendored
-/windows/* linguist-vendored
-/linux/* linguist-vendored
+# 🧠 Tell GitHub Linguist to ignore non-Dart files and folders
 
-# Count Dart files only
+# Ignore build artifacts and web output
+build/** linguist-vendored
+web/** linguist-vendored
+assets/** linguist-vendored
+
+# Ignore platform-specific files (C++, Swift, CMake)
+ios/** linguist-vendored
+android/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+
+# Ignore configuration, Ruby, and other setup files
+*.cmake linguist-vendored
+*.cpp linguist-vendored
+*.swift linguist-vendored
+*.rb linguist-vendored
+*.html linguist-vendored
+*.js linguist-vendored
+*.css linguist-vendored
+
+# ✅ Force Dart as the main language
 *.dart linguist-detectable=true
 *.dart linguist-language=Dart
