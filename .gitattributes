@@ -1,2 +1,8 @@
-*.dart linguist-detectable=false
-*.html linguist-language=HTML
+# Ignore generated or web files for language stats
+/web/* linguist-detectable=false
+/build/* linguist-detectable=false
+/assets/* linguist-detectable=false
+
+# Ensure Dart files are counted
+*.dart linguist-detectable=true
+*.dart linguist-language=Dart
